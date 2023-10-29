@@ -1,0 +1,55 @@
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .registration-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .registration-card h2 {
+    font-size: 24px;
+  }
+  
+  .registration-card .form-group {
+    margin: 10px 0;
+  }
+  
+  .registration-card input[type="text"],
+  .registration-card input[type="email"],
+  .registration-card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .registration-card input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .registration-card input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .registration-card a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .registration-card a:hover {
+    text-decoration: underline;
+  }
+  
